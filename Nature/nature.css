@@ -1,0 +1,549 @@
+header {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+nav.menu {
+    background: rgba(51, 51, 51, 0.68);
+    padding:12px 16px;
+    border-bottom: 6px solid rgb(255, 181, 0);
+}
+nav{
+    margin: 0;
+}
+#logo a {
+    float: left;
+    display: initial;
+    margin: 0;
+    color: #fff;
+}
+.logo h1{
+    padding: 0;
+    margin: 0;
+}
+.logo h1 a:hover{
+text-decoration: none;
+}
+.logo h1 a {
+    font-size: 26px;
+    text-transform: capitalize;
+    display: initial;
+    margin: 0;
+    letter-spacing: 1px;
+    line-height: 21px;
+    color: #fff;
+    font-weight: 600;
+}
+.menu-mt-1{
+    float: right !important;
+    list-style-type: none;
+    /* display: inline-flex; */
+    position: relative;
+    margin-bottom: 0;
+    margin-top: -4px;
+}
+/* .container ul li{
+    display: inline;
+} */
+.menu-mt-1 li a{
+    display: inline;
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 16px;
+    padding: 20px;
+    letter-spacing: 2px;
+    font-weight: 100px;
+    padding-right: 0;
+    line-height: 2.3;
+}
+.menu-mt-1 li a:hover{
+color: #be8b09 !important;
+background: none;
+}
+.menu-mt-1 .active{ 
+    color: #ffb500 !important;
+    font-weight: 600;
+}
+.menu-mt-1 .active:hover{
+    color: #ffb500 !important;
+}
+/* .toggle{
+    display:none;
+}
+label {
+    color: #000 !important;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #000;
+} */
+/* {
+    box-sizing: border-box;
+}
+.toggle,[id^=drop]{
+    display: none; 
+}*/
+/* .rice-image{
+    width: 100%;
+    height: 800px;
+} */
+.agile_banner_info {
+    padding: 45em 0em 0em;
+}
+    .row {
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+}
+.image-bottom{
+    background: rgba(27, 27, 27, 0.75);
+    padding: 10px 16px 16px;
+    margin: 0;
+    width: 100%;
+}
+.banner{
+    background: url(../images/agriculture.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 765px;
+    position: relative;
+}
+.image-bottom{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+.image-bottom h2 {
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.5em;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    text-align: center;
+    line-height: 1.9em;
+    margin: 0;
+    vertical-align: text-bottom;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px;
+}
+.ban-button{
+    text-align: center;
+    margin-top: 7px;
+    
+}
+.agile-banner-info .sub-name{
+   border: none;
+   padding: 10px 20px;
+   
+}
+.click-button a{
+    color: white;
+    border: 0;
+    background-color: #ffb500;
+    padding: 15px 30px;
+    border-radius: 5px;
+    float: left;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+section .menu-heading{
+    width: 100%;
+    padding-top: 100px;
+}
+.menu-heading h4{
+    font-size: 36px;
+    color: #046d32;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 16px;
+    width: 100%;
+}
+.menu-heading p{
+    margin-top: 35px;
+    text-transform: uppercase;
+ font-size: 13px;
+ color: #696969;
+ font-weight: 600;  
+ letter-spacing: 1px; 
+}
+.about-info-grids{
+    padding: 90px 0;
+    margin-left: 0;
+}
+.para1{
+    height: 350px;   
+}
+
+.logo1{
+    color: #ffb500;
+    font-size: 34px;
+    border-radius: 100%;
+    line-height: 0px;
+    border: 2px dotted #046d32;
+    padding: 35px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.para1 h4{
+margin: 35px;
+font-weight: 600;
+font-size: 23px;
+text-transform: capitalize;
+}
+.para1 p{
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #777;
+    line-height: 35px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.logo2{
+    color: #ffb500;
+    font-size: 34px;
+    border-radius: 100%;
+    line-height: 0px;
+    border: 2px dotted #046d32;
+    padding: 35px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding-left: 27px;
+    padding-top: 34px; 
+}
+.logo3{
+    color: #ffb500;
+    font-size: 43px;
+    border-radius: 100%;
+    line-height: 0px;
+    border: 2px dotted #046d32;
+    padding: 35px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding-left: 33px;
+    padding-top: 30px; 
+}
+.about-info-grids1{
+    padding: 90px 0 40px;
+    margin-left: 0;
+}
+#about{
+    background-color: #efefef;
+    display: block;
+}
+
+.g1{
+    width: 100%;
+    border-radius: 5px;
+}
+.para2 h6{
+    font-size: 18px;
+text-align: left;
+font-weight: 700;
+width: 100%;
+padding-top: 25px;
+letter-spacing: 1px;
+color: #404248;
+margin-bottom: 2px;
+}
+.para2 p{
+    font-size: 13px;
+    text-align: left;
+    letter-spacing: 1px;
+    font-weight: 700;
+    width: 100%;
+color: #696969;
+padding-left: 1px;
+}
+.paragraph p{
+    margin-top: 0;
+    color: #777;
+    font-size: 16px;
+    padding-bottom: 70px;
+}
+#Porttitor{
+    background-color: #fff;
+}
+.paragraph1 p{
+    margin-top: 50px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #777;
+    letter-spacing: 0.5px;
+    margin-bottom: 80px;
+}
+.image-heading-page{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.head{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+}
+.g4{
+    width: 100%;
+    height: 140px;
+    border-radius: 5px;
+}
+.row h4{
+    width: 100%;
+    text-align: left;
+    padding-left: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.head .paragraph2{
+    padding-left:0;
+    padding-right: 0;
+}
+.head .sub-heading{
+    padding-right: 0;
+}
+.paragraph2 p{
+    width: 100%;
+    text-align: left;
+    line-height:30px;
+    color: #777;
+    padding-left: 18px;
+    letter-spacing: 0.5px;
+}
+.para3 hr{
+   border-bottom: 0.5px solid rgb(228, 224, 224);
+   margin-left: -13px;
+}
+#footer-background{
+    background-color: #2d2f35;
+}
+.bottom-heading{
+    padding-top: 70px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid rgba(172, 178, 191, 0.37);
+}
+.bottom-heading h4{
+color: #fff;
+letter-spacing: 1px;
+font-weight: 600;
+text-align:left;
+padding-left: 0;
+padding-bottom: 20px;
+}
+.bottom-heading .footer-menu{
+    padding: 0;
+    margin: 0;
+}
+.bottom-heading .footer-menu li {
+    border-bottom: 1px solid rgba(172, 178, 191, 0.37);
+    padding: 10px 0;
+}
+.bottom-heading .footer-menu li a{
+    padding: 10px 0;
+    margin: 0;
+    color: #acb2bf;
+    letter-spacing: 0;
+    font-size: 16px; 
+}
+.bottom-heading .footer-menu li a:hover{
+    color: #acb2bf;
+}
+.para4 #name-bottom{
+    padding: 16px 40px 16px 20px;
+    text-align: left;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #000;
+    margin-right: 26px;
+    margin-top: 20px;
+}
+.para4 #name-bottom1{
+    padding: 15px 310px 160px 15px;
+    text-align: left;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #000;
+    margin-right: 26px;
+    margin-top: 15px;
+}
+.button-send{
+    margin: 20px 0;
+    padding: 15px 30px;
+    border-radius: 4px;
+    border: none;
+    background-color: #046d32;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.button-send:hover{
+    background-color:#ffb500;
+}
+.footer-logo span a{
+    color:#acb2bf;
+    font-size: 22px;
+}
+.footer-logo span a i{
+margin: 30px 0;
+padding: 20px 20px 10px;
+font-size: 21px;
+}
+.footer-logo span a i:hover{
+color: #fff;
+}
+
+.footer-logo p{
+ color:#acb2bf;
+ letter-spacing: 2px;
+ padding-bottom: 50px;
+}
+.footer-logo p a{
+    color:#ffb500;
+}
+.footer-logo p a:hover{
+    color:#acb2bf;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+    .banner {
+        min-height: 470px;
+    }
+    .navbar-nav {
+        float: left;
+        margin: 0;
+    }
+    .navbar-nav {
+    float: left !important;
+    margin: 0;
+    }
+    .image-bottom h2 {
+        color: rgba(231, 226, 226, 0.75);
+        font-size: 16px;
+    }
+    .click-button a{
+        color: white;
+        border: 0;
+        background-color: #ffb500;
+        padding: 15px 20px;
+        border-radius: 5px;
+        margin-left: 117px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+}
+/* @media screen and (max-width:992px) {
+    .rice-image{
+        width: 125%;
+        height: 800px;
+    }
+    header {
+        position: absolute;
+        z-index: 1;
+        width: 125%;
+    }
+    nav.menu {
+        background: rgba(51, 51, 51, 0.68);
+        padding: 30px 16px 20px;
+        border-bottom: 6px solid rgb(255, 181, 0);
+    }
+    .banner .image-bottom {
+        position: absolute;
+        bottom: 0px;
+        text-align: center;
+        width: 125%;
+    }
+
+
+} */
+/* 
+@media screen and (max-width:600px) {
+
+
+} */
+
+/* 
+@media (max-width: 768px){
+.toggle {
+    display: block;
+    padding: 6px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    float: right;
+    background-color: #ffffff;
+    color: #333;
+    cursor: pointer;
+    margin-right: -15px;
+    margin-top: -11PX;
+}
+.toggle +a,.menu-mt-1{
+    display: none;
+}
+
+@media (max-width: 330px)
+nav ul li{
+    display: block;
+
+}
+@media (max-width: 768px){
+[id^=drop]:checked + ul {
+    display: block;
+    background: rgba(16, 16, 16, 0.85);
+    padding: 15px 0;
+    text-align: center;
+    width: 112%;
+    margin-right: -16px;
+}
+}
+@media screen and (max-width: 768px){
+    .logo h1{
+        margin-left: -15px;
+    }
+    .logo h1 a{
+        font-size: 25px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .logo h1 a:hover{
+        list-style-type: none;
+        text-decoration: none;
+    }
+    nav.menu{
+        padding-top: 25px;
+        padding-bottom: 7px;
+    }
+    .banner .rice-image{
+        width: 100%;
+        height: 200px;
+    }
+    .g1{
+        width: 100%;
+    }
+}
+    @media screen and (max-width: 425px){
+    .para1{
+        width: 100%;
+    }
+    .g1{
+        width: 100%;
+    }
+} */

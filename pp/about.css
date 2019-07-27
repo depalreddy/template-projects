@@ -1,0 +1,425 @@
+.banner{
+    background: url(../images/pexels-photo-532624.jpeg) no-repeat center;
+    -webkit-background-size:cover;
+    min-height: 520px;
+    position: relative;
+}
+header{
+    position: absolute;
+    width: 100%;
+}
+header .heading-padding{
+    padding: 10px 0;
+}
+header .spacing{
+    margin-top: 10px;
+}
+header .border-radius{
+    border-radius: 0;
+}
+header .logo .logo-icon{
+    width: 50px;
+    height: 50px;
+}
+header .logo{
+   color: rgb(105, 98, 98);
+font-weight: 600;
+}
+header .logo:hover{
+    text-decoration: none;
+}
+header .menu ul{
+    float: right;  
+}
+header .menu ul li a{
+    margin: 0px 20px;
+    padding: 23px 15px;
+}
+header .menu ul li a:hover{
+    background-color: rgb(5, 147, 172) !important;
+}
+header .menu .active{
+    margin: 20px 45px 0;
+    padding: 4px 21px;
+    background-color: orangered;
+    color: #fff !important;
+    border-radius: 5px;
+}
+header .menu .active:hover{
+    background-color: orangered !important;
+    /* color: #fff !important;
+    border-radius: 5px; */
+}
+header .menu .search-engine{
+    padding-top: 18px;
+    padding-bottom: 14px
+}
+header .menu .fa{
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+}
+.content-on-image{
+    position: absolute;
+    margin-top: 280px;
+    width: 100%;
+}
+.content-on-image h1{
+    font-size: 53px;
+    color: rgb(236, 230, 230);
+    font-family: 'Oswald', sans-serif;
+} 
+.section1 .padding{
+    padding: 30px 18px;
+}
+.section1 .content-heading h1{
+    font-size: 45px;
+    color: rgb(5, 147, 172);
+    font-family: 'Oswald', sans-serif;
+    margin: 40px 0 30px
+}
+.section1 .content-heading p{
+padding: 0 20px;
+text-align: center;
+font-weight: 600;
+font-family: 'Open Sans', sans-serif;
+line-height: 25px;
+}
+.section1 .content-heading .active{
+    padding: 0 20px;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+    margin-top: 30px;
+}
+.padding-zero{
+    margin: 0;
+}
+.section2 .border-radius{
+    border: 2px solid rgb(243, 229, 229);
+}
+.section2 .content-heading h1{
+    font-size: 80px;
+    color: rgb(75, 72, 72);
+    font-family: 'Oswald', sans-serif;
+    margin: 15px 0 30px;
+}
+.section2 .content{
+    border-top: 2px solid rgb(243, 229, 229);
+    border-bottom: 2px solid gray;
+}
+.section2 .content .columns{
+    padding: 5px 13px 15px;
+  
+}
+.section2 .content .columns .laptop-image{
+    width: 100%;
+    padding: 5px 25px 5px;
+}
+.section2 .content .columns .phone-image{
+    width: 100%;
+    padding: 34px 25px 20px;
+}
+.section2 .content .columns .calender-image{
+    width: 100%;
+    padding: 0px 25px 15px;
+}
+.section2 .content .columns h5{
+    font-size: 22px;
+    color: rgb(5, 147, 172);
+    margin: 10px 0 25px;
+    font-weight: 600;
+}
+.section3 .padding{
+    padding: 30px 90px 90px;
+}
+.section3 .content-heading h1{
+    font-size: 45px;
+    color: rgb(5, 147, 172);
+    font-family: 'Oswald', sans-serif;
+    margin: 40px 0 1px;
+}
+.section3{
+    background-color: rgb(243, 242, 242);
+}
+.section3 .card{
+    padding: 30px 10px;
+    min-height: 350px;
+    background-color: #fff;
+    margin-top: 40px;
+    border: 1px solid #d2d2d2;
+    border-radius: 3px;
+    box-shadow: 1px 0px 7px #d2d2d2;
+}
+.section3 .card-left{
+    box-shadow: -11px -11px grey;
+}
+.section3 .card-right{
+    box-shadow: 11px -11px grey;
+}
+.section3 .card .our-team-iamge{
+    width: 100%;
+    background-color: #777;
+}
+.section3 .card h5{
+font-size: 17px;
+font-weight: 600;
+}
+.section3 .card h4{
+    font-size: 22px;
+    color: rgb(35, 192, 219);
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+} 
+.section3 .card .active{
+    color: rgb(170, 155, 155);
+}
+.section3 .card .card-one{
+    width: 20px;
+    height: 27px;
+    border-radius: 3px;
+    background-color: rgb(35, 192, 219);
+    margin: 0 6px 0 10px;
+}
+.section3 .card .card-two{
+    width: 20px;
+    height: 27px;
+    border-radius: 3px;
+    background-color: red;
+    margin: 0 6px;
+}
+.section3 .card .card-three{
+    width: 20px;
+    height: 27px;
+    border-radius: 3px;
+    background-color: rgb(0, 68, 255);
+    margin: 0 6px;
+}
+.section3 .card .card-four{
+    width: 20px;
+    height: 27px;
+    border-radius: 3px;
+    background-color: yellow;
+    margin: 0 6px;
+}
+.section3 .card-padding{
+    padding: 0 50px;
+}
+.section3 .card .top-padding{
+    line-height: 25px;
+    margin-top: 20px;
+}
+.section4{
+    background-color: rgb(59, 56, 56);
+}
+.section4 .padding{
+    padding: 50px 17px 40px;
+}
+.section4 .content{
+    padding-right: 10px;
+}
+.section4 .distance{
+    margin-bottom: 80px;
+}
+.section4 .content h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(226, 96, 10);
+    margin-bottom: 25px;
+}
+.section4 .content p{
+    color: #fff;
+    margin: 5px 0;
+}
+.section5 .content a:hover{
+color: #337ab7;
+text-decoration: none;
+}
+.section4 .content .para{
+    border-bottom: 1px solid gray;
+    margin-top: 15px;
+}
+.section5 .content .para-one{
+    border-bottom: 1px solid gray;
+    margin-top: -5px;
+    line-height: 25px;
+}
+.section4 .content label{
+    color: #337ab7;
+    margin: 15px 0 5px;
+}
+.section4 .content .click-botton{ 
+    background-color: rgb(27, 142, 187);
+    padding: 4px 12px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 22px;
+    float: right;
+}
+.section4 .content .heading{
+    margin-bottom: 15px;
+}
+.section4 .content .smallcard{
+    width: 100%;
+    background-color: #fff;
+    min-height: 60px;
+}
+.section4 .padding1{
+    padding-left: 0;
+    margin-bottom: 10px;
+    margin-right: -8px;
+    padding-right: 24px;
+}
+.section4 .padding-zero p{
+margin: 0;
+}
+.section4 .content .para-three{
+    border-bottom: 1px solid gray;
+    padding: 0;
+    margin: 10px 0;
+}
+.section4 .content .social-icons{
+    color: #337ab7;
+    font-size: 35px;
+    margin-top: -2px
+}
+.section4 .padding2{
+    padding-left: 0;
+}
+.section4 .content .para-four{
+margin-bottom: 15px;
+padding-left: 0;
+}
+.section4 .content .para-four .footer-padding{
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+.banner{
+    min-height: 422px;
+}
+header .spacing{
+    margin:20px !important;
+}
+header .menu {
+    position: absolute;
+    width: 100%;
+    background-color: deepskyblue;
+    z-index: 1;
+}
+header .menu ul{
+    text-align: center;
+    float: none;
+}
+header .menu ul li a{
+    color: #fff !important;
+    padding: 15px;
+}
+.content-on-image{
+    position: absolute;
+    margin-top: 230px;
+    width: 100%;
+}
+.content-on-image h1{
+    font-size: 39px;
+} 
+.section1 .content-heading h1{
+    font-size: 40px;
+    margin: 13px 0 30px;
+}
+.section1 .content-heading p{
+    padding: 0;
+}
+.section1 .content-heading .active{
+    padding: 0;
+}
+.section2 .content-heading h1 {
+    font-size: 40px;
+}
+.section3 .padding {
+    padding: 30px 10px 90px;
+}
+.section3 .card-padding{
+    padding: 10px;
+}
+.section3 .card h5{
+    font-size: 15px;
+   margin: 8px 0;
+}
+.section3 .card h4{
+    font-size: 20px;
+    margin: 8px 0;
+} 
+.section3 .card .active{
+    color: rgb(170, 155, 155);
+}
+.section3 .card .card-one{
+    margin: 0 4px 0 0;
+}
+.section3 .card .card-two{
+    margin: 0 4px;
+}
+.section3 .card .card-three{
+    margin: 0 4px;
+}
+.section3 .card .card-four{
+    margin: 0 4px;
+}
+.section3 .card{
+    padding: 30px 10px;
+    min-height: 400px;
+}  
+.section2 .content .columns .phone-image {
+    width: 100%;
+    padding: 34px 25px 39px;
+}
+.section4 .content{
+    padding-right: 10px;
+    margin-top: 40px;
+}
+.section4 .content .para-four{
+    min-height: 70px;
+}
+.section4 .content .para-three {
+  padding-bottom: 10px;
+}
+}

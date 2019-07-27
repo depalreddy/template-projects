@@ -1,0 +1,20 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo-image {
+    width: 130px;
+    height: 50px;
+}
+.main-menu {
+    float: right;
+}
+.main-menu ul li a{
+    color: #F37218 !important;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Oswald;
+
+}

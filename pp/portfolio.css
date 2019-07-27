@@ -1,0 +1,475 @@
+.banner{
+    background: url(../images/pexels-photo-532624.jpeg) no-repeat center;
+    -webkit-background-size:cover;
+    min-height: 520px;
+    position: relative;
+}
+header{
+    position: absolute;
+    width: 100%;
+}
+header .heading-padding{
+    padding: 10px 0;
+}
+header .spacing{
+    margin-top: 10px;
+}
+header .border-radius{
+    border-radius: 0;
+}
+header .logo .logo-icon{
+    width: 50px;
+    height: 50px;
+}
+header .logo{
+   color: rgb(105, 98, 98);
+font-weight: 600;
+}
+header .logo:hover{
+    text-decoration: none;
+}
+header .menu ul{
+    float: right;  
+}
+header .menu ul li a{
+    margin: 0px 20px;
+    padding: 23px 15px;
+}
+header .menu ul li a:hover{
+    background-color: rgb(5, 147, 172) !important;
+}
+header .menu .active{
+    margin: 20px 45px 0;
+    padding: 4px 21px;
+    background-color: orangered;
+    color: #fff !important;
+    border-radius: 5px;
+}
+header .menu .active:hover{
+    background-color: orangered !important;
+    /* color: #fff !important;
+    border-radius: 5px; */
+}
+header .menu .search-engine{
+    padding-top: 18px;
+    padding-bottom: 14px
+}
+header .menu .fa{
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+}
+.content-on-image{
+    position: absolute;
+    margin-top: 280px;
+    width: 100%;
+}
+.content-on-image h1{
+    font-size: 53px;
+    color: rgb(236, 230, 230);
+    font-family: 'Oswald', sans-serif;
+} 
+.section1 h1{
+    font-size: 60px;
+    color: rgb(5, 147, 172);
+    font-family: 'Oswald', sans-serif;
+    margin: 45px 0;
+}
+.section1 .padding{
+    padding: 0px 72px;
+    border: 1px solid rgb(5, 147, 172);
+}
+.section1 .menu{
+    border-left: 1px solid rgb(5, 147, 172);
+    border-right: 1px solid rgb(5, 147, 172);
+    /* padding: 15px; */
+}
+.section1 .margin-zero{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section1 .menu ul li{
+    border-right: 1px solid gray;
+}
+.section1 .menu .remove-bar{
+    border:none;
+}
+.section1 .menu ul li a{
+    font-size: 16px;
+    margin: 4px;
+    font-family: 'Oswald', sans-serif;
+    padding: 16px 50px;
+    color: #333;
+}
+.section1 .menu ul li a:hover{
+text-decoration: none;
+color: #337ab7;
+}
+.section1 .menu ul li .active{
+    color: #337ab7;
+}
+.section1 .menu ul li .color:hover{
+    background-color: #337ab7;
+    color: #fff;
+}
+.section1 .menu ul li .active1{
+    padding-right: 120px;
+}
+.section1 .menu ul li span{
+    color: #337ab7;
+}
+.section1 .dropdown .dropdown-toggle{
+    border: none;
+    padding: 20px 30px;
+    border-radius: 0;
+}
+.section1 .menu .dropdown-menu{
+    padding:0 20px 0;
+    background-color:orangered;
+    color: #fff; 
+}
+.section1 .menu .radio{
+    border-bottom: 1px solid#fff;
+    padding: 7px;
+}
+.section1 .menu-background{
+    background-color: #fff;
+    border-left: 1px solid rgb(5, 147, 172);
+    border-right: 1px solid rgb(5, 147, 172);
+    border-radius: 0;
+    margin: 0;
+}
+.section2{
+    border-bottom: 2px solid #0ddaf5;
+}
+.section2 .cards .yoga-image{
+    width: 100%;
+    margin-top: 15px;
+}
+.section2 .img-thumbnail {
+    padding: 11px;
+    border: 1px solid #fff;
+    box-shadow: rgba(60, 70, 100,0.4);
+}
+.section2 .padding{
+    padding: 30px 18px;
+}
+.section2 .click-botton{
+    text-align: center;
+}
+.section2 .pagination li a{
+   background-color: #337ab7;
+   color: #fff;
+   border: none;
+}
+.section3{
+    border-bottom: 2px solid #0ddaf5;
+}
+.section3 .padding{
+    padding:18px;
+}
+.section3 .content-heading h3{
+    font-size: 33px;
+    color: #337ab7;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    margin: 40px 0 10px;
+}
+.section3 .logo-name-one h4{
+font-size: 20px;
+font-family: 'Oswald', sans-serif;
+color: #777;
+}
+.section3 .logo-name-two h4{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #777;
+}
+.section3 .logo-name-three h4{
+    font-size: 20px;
+    font-family:'Kaushan Script', cursive;
+    color: #777;
+}
+.section3 .logo-name-four h4{
+    font-size: 20px;
+    font-family:'Kaushan Script', cursive;
+    color: #777;
+}
+.section3 .logo-name-five h4{
+    font-size: 20px;
+    font-family:'Kaushan Script', cursive;
+    color: #777;
+}
+.section3 .logo-name-six h4{
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    color: #777;
+}
+.section4 .padding{
+    padding: 30px 17px 10px;
+}
+.section4 .content-heading h1{
+    font-size: 30px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.section4 .content-heading p{
+    margin-top: 20px;
+    padding: 0px 130px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.section4 .card{
+    padding: 40px 10px;
+}
+.section4 .card h4{
+    color:rgb(226, 96, 10);
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.section4 .card .Testimonial-icons{
+    background-color: #777;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 2px;
+}
+.section4 .card .color-change{
+    background-color:rgb(226, 96, 10);
+}
+.section5{
+    background-color: rgb(59, 56, 56);
+}
+.section5 .padding{
+    padding: 50px 17px 40px;
+}
+.section5 .content{
+    padding-right: 10px;
+}
+.section5 .distance{
+    margin-bottom: 80px;
+}
+.section5 .content h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(226, 96, 10);
+    margin-bottom: 25px;
+}
+.section5 .content p{
+    color: #fff;
+    margin: 5px 0;
+}
+.section5 .content a:hover{
+color: #337ab7;
+text-decoration: none;
+}
+.section5 .content .para{
+    border-bottom: 1px solid gray;
+    margin-top: 15px;
+}
+.section5 .content .para-one{
+    border-bottom: 1px solid gray;
+    margin-top: -5px;
+    line-height: 25px;
+}
+.section5 .content label{
+    color: #337ab7;
+    margin: 15px 0 5px;
+}
+.section5 .content .click-botton{ 
+    background-color: rgb(27, 142, 187);
+    padding: 4px 12px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 22px;
+    float: right;
+}
+.section5 .content .heading{
+    margin-bottom: 15px;
+}
+.section5 .content .smallcard{
+    width: 100%;
+    background-color: #fff;
+    min-height: 60px;
+}
+.section5 .padding1{
+    padding-left: 0;
+    margin-bottom: 10px;
+    margin-right: -8px;
+    padding-right: 24px;
+}
+.section5 .padding-zero{
+    padding: 0;
+}
+.section5 .padding-zero p{
+margin: 0;
+}
+.section5 .content .para-three{
+    border-bottom: 1px solid gray;
+    padding: 0;
+    margin: 10px 0;
+}
+.section5 .content .social-icons{
+    color: #337ab7;
+    font-size: 35px;
+    margin-top: -2px
+}
+.section5 .padding2{
+    padding-left: 0;
+}
+.section5 .content .para-four{
+margin-bottom: 15px;
+padding-left: 0;
+}
+.section5 .content .para-four .footer-padding{
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+.banner{
+    min-height: 422px;
+}
+header .spacing{
+    margin:20px !important;
+}
+header .menu {
+    position: absolute;
+    width: 100%;
+    background-color: deepskyblue;
+    z-index: 1;
+}
+header .menu ul{
+    text-align: center;
+    float: none;
+}
+header .menu ul li a{
+    color: #fff !important;
+    padding: 15px;
+}
+.content-on-image{
+    position: absolute;
+    margin-top: 230px;
+    width: 100%;
+}
+.content-on-image h1{
+    font-size: 39px;
+} 
+.section1 .padding {
+    padding: 0px;
+}
+.section1 .menu ul li{
+    border:none;
+}
+.section1 .padding {
+    padding: 0;
+    border:none;
+}
+.section1 .margin-zero {
+    text-align: center;
+}
+.section1 .menu ul li .active1 {
+    padding-right: 27px;
+}
+.section1 .menu-background {
+    background-color: #fff;
+    border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    border-radius: 0;
+    margin: 0;
+}
+.section3 .padding {
+    text-align: center;
+}
+.section4 .card {
+    padding: 40px 0;
+}
+.section4 .content-heading h1{
+    font-size: 30px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+.section4 .content-heading p{
+    padding: 0px 10px;
+    font-size: 16px;
+}
+.section5 .content{
+    padding-right: 10px;
+    margin-top: 40px;
+}
+.section5 .content .para-four{
+    min-height: 70px;
+}
+.section5 .content .para-three {
+  padding-bottom: 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

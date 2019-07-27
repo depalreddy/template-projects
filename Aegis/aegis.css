@@ -1,0 +1,737 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    background: url(./images/banner1.jpg) no-repeat center;
+    -webkit-background-size:cover;
+    min-height: 765px;
+}
+.banner1{
+    background: url(./images/banner2.jpg) no-repeat center;
+    -webkit-background-size:cover;
+    min-height: 765px;
+}
+.banner2{
+    background: url(./images/banner3.jpg) no-repeat center;
+    -webkit-background-size:cover;
+    min-height: 765px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: pink;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: pink;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: pink;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: pink;
+  }
+.override{
+    background: rgba(0, 0, 0, 0.44);
+    min-height: 769px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+.override .menu{
+    text-align: right;
+    float: right;
+}
+.override .padding{
+    padding: 30px 10px;
+} 
+.override .color{
+    background-color: transparent;
+    border: none;
+}
+.override .logo a{
+    color: #fff;
+    font-size: 31px;
+    font-weight: 700;
+    padding: 0 30px;
+}
+.override .fa-angellist{
+    padding: 10px;
+    font-weight: 100;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+    background-color: #fff;
+    border-radius: 0;
+    padding: 15px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+.override .menu{
+    margin-top: 8px;
+}
+.override .menu li a{
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 10px 12px;
+}
+.override .menu li a:hover{
+    color: #fff;
+opacity: 0.6;
+}
+.override .menu .active a{
+    color: #0063dc;
+    background: transparent;
+}
+.override .menu .active1 a{
+opacity: 0.6;
+}
+.override .dropdown-menu li a{
+    color: black;
+    padding: 10px;
+}
+.override .dropdown-toggle:hover{
+    background: transparent !important;
+    color: #fff;
+    opacity: 0.6;
+}
+.override .dropdown-menu li a:hover{
+    color: #660099;
+    background-color: #faf4f4;
+}
+
+
+
+
+
+
+
+
+
+.override .headings{
+    text-align: center;
+    margin-top: 240px;
+}
+.override .headings h5{
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 15px;
+}
+.override .headings h1{
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 130px;
+    font-weight: 900;
+    text-shadow: 1px 0px 7px #726a6a;
+}
+.override .headings p{
+    text-align: right;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+.override .headings .social-icons{
+    float: left;
+}
+.override .headings .social-icons li a{
+    color: #fff;
+    font-size: 15px;
+    padding-right: 30px;
+}
+
+
+
+
+
+
+.carousel-inner .carousel-caption{
+    top: 310px;
+}
+.carousel-inner .carousel-caption h5{
+    /* color: #fff; */
+    color: black;
+    letter-spacing: 4px;
+    font-size: 15px;
+}
+.carousel-inner .carousel-caption h1{
+    /* color: #fff; */
+  color:rgb(97, 26, 26);
+    letter-spacing: 3px;
+    font-size: 130px;
+    font-weight: 900;
+    text-shadow: 1px 0px 7px #726a6a;
+}
+.carousel-inner .carousel-caption p{
+    text-align: right;
+    /* color: #fff; */
+    color: black;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+.carousel-inner .carousel-caption .social-icons{
+    float: left;
+}
+.carousel-inner .carousel-caption .social-icons li a{
+    /* color: #fff; */
+    color: black;
+    font-size: 15px;
+    padding-right: 30px;
+    cursor: progress;
+} 
+
+.section1 .container{
+    padding: 60px 0;
+}
+.section1 .content p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 40px 185px;
+    color: #222;
+    font-weight: 500;
+    text-align: center;
+    line-height: 32px;
+}
+.section1 .social-icon a{
+    font-size: 40px;
+    color: #fff;
+    background-color: rgb(12, 83, 238);
+    padding: 25px 25px 23px 34px;
+    border-radius: 50%;
+}
+.section1 .social-icon a .fa-play:hover{
+    color: rgb(41, 6, 196);;
+}
+.section2{
+    background-color: #f5f1f6;
+}
+.section2 .container{
+    padding: 120px 40px 70px;
+}
+.section2 .padding{
+padding: 15px;
+}
+.section2 .card1{
+    background-color: #fff;
+    box-shadow: 1px 0 6px rgb(163, 155, 155);
+    padding: 40px 50px 40px 50px;
+}
+.section2 .card1 span{
+    font-size: 26px;
+}
+.section2 .card1 h4{
+color:rgb(27, 27, 27);
+font-size: 15px;
+font-weight: 600;
+letter-spacing: 1px;
+margin: 26px 0;
+}
+.section2 .card1 p{
+color: #777;
+letter-spacing: 1px;
+font-size: 16px;
+line-height: 27px;
+}
+.section2 .card2{
+    background-color: #ff0084;
+    box-shadow: 1px 0 6px rgb(163, 155, 155);
+    padding: 40px 50px 40px 50px;
+}
+.section2 .card2 span{
+    color: #fff;
+    font-size: 26px;
+}
+.section2 .card2 h4{
+color:rgb(27, 27, 27);
+font-size: 15px;
+font-weight: 600;
+letter-spacing: 1px;
+margin: 26px 0;
+}
+.section2 .card2 p{
+color: #fff;
+letter-spacing: 1px;
+font-size: 16px;
+line-height: 27px;
+}
+
+.section3 .padding{
+    padding: 0;
+}
+.section3 .content .image-people{
+    width: 100%;
+}
+.section3 .content-padding{
+    padding: 105px 85px 60px 80px
+}
+.section3 .content-padding h3{
+    font-size: 40px;
+    color: #333;
+    text-shadow: 3px 1px 3px rgba(45, 45, 45, 0.14);
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.section3 .content-padding p{
+    color: #777;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 55px;
+}
+.section3 .progress-paragraph{
+    margin-top: 50px;
+}
+.section3 .progress-paragraph h5{
+    letter-spacing: 1px;
+    color: rgb(128, 120, 120);
+    font-size: 12.6px;
+    font-weight: 600;
+}
+.section3 .progress-one{
+    margin-bottom: 26px;
+}
+.progress-one .progress {
+    height: 4.5px;
+    background: #444;
+    border-radius: 0px;
+    margin-top: 14px;
+}
+.progress-bar{
+    background-color: #007bff;
+}
+.section4 .padding{
+    padding: 0;
+}
+.section4 .content .image-people{
+    width: 100%;
+}
+.section4 .content-padding{
+    padding: 105px 85px 60px 80px
+}
+.section4 .content-padding h3{
+    font-size: 40px;
+    color: #333;
+    text-shadow: 3px 1px 3px rgba(45, 45, 45, 0.14);
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.section4 .content-padding p{
+    color: #777;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 55px;
+}
+.section4 .content-padding1{
+    margin-top: 50px;
+}
+.section4 .content-padding1 p{
+    color: #777;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 16px;
+}
+.section4 .content-padding1 span{
+    font-size: 13px;
+    padding: 0 7px 0 0;    
+    color: #ff0084;
+}
+.section5 .content-padding h3{
+    font-size: 40px;
+    color: #333;
+    text-shadow: 3px 1px 3px rgba(45, 45, 45, 0.14);
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
+}
+.section5{
+    background-color: #f5f1f6;
+}
+.section5 .padding{
+    padding: 80px 40px 70px;
+}
+.section2 .padding1{
+padding: 15px;
+}
+.section5 .card1{
+    padding: 85px 35px 40px 40px;
+    text-align: right;
+}
+.section5 .card1 h4{
+color:rgb(27, 27, 27);
+font-size: 15px;
+font-weight: 600;
+letter-spacing: 1px;
+margin: 26px 0;
+}
+.section5 .card1 p{
+color: #777;
+letter-spacing: 1px;
+font-size: 16px;
+line-height: 27px;
+}
+.section5 .bobble-image{
+    width: 100%;
+}
+.section5 .card3{
+    padding: 85px 35px 40px 40px;
+    text-align:left;
+}
+.section5 .card3 h4{
+color:rgb(27, 27, 27);
+font-size: 15px;
+font-weight: 600;
+letter-spacing: 1px;
+margin: 26px 0;
+}
+.section5 .card3 p{
+color: #777;
+letter-spacing: 1px;
+font-size: 16px;
+line-height: 27px;
+}
+.section5 .card4{
+    padding: 50px 35px 40px 40px;
+    text-align:center;
+}
+.section5 .card4 h4{
+color:rgb(27, 27, 27);
+font-size: 15px;
+font-weight: 600;
+letter-spacing: 1px;
+margin: 26px 0;
+}
+.section5 .card4 p{
+color: #777;
+letter-spacing: 1px;
+font-size: 16px;
+line-height: 27px;
+}
+.section6 .padding{
+    padding: 10px 45px 50px;
+}
+.section6 .content-padding{
+    padding:65px 20px;
+}
+.section6 .content-padding h3{
+    font-size: 40px;
+    color: #333;
+    text-shadow: 3px 1px 3px rgba(45, 45, 45, 0.14);
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.section6 .images .six-images{
+    width: 100%;
+    margin-top: 25px;
+}
+.section6 .images .six-images:hover{
+    opacity: 0.8;
+}
+.section7{
+    background-color: #efc001;
+}
+.section7 .padding{
+    padding: 10px 45px 60px;
+}
+.section7 .content-padding h3{
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 3px 1px 3px rgba(20, 20, 20, 0.14);
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin: 55px 0;
+}
+.section7 .six-logos a{
+    color: #333;
+    font-size: 48px;
+}
+.section7 .six-logos .padding1{
+    margin-bottom: -4px;
+}
+.section7 .six-logos h5{
+margin: 0;
+font-weight: 600;
+letter-spacing: 2px;
+font-size: 14px;
+}
+.section8 .padding{
+    padding: 30px 0 50px;
+}
+.section8 .content-padding h3{
+    font-size: 37px;
+    color: #333;
+    text-shadow: 3px 1px 3px rgba(45, 45, 45, 0.14);
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin: 50px 0;
+}
+.section8 .content-padding a{
+    text-decoration: none;
+}   
+.section8 .content-padding h3 span{
+    color: #ff0084;
+    font-weight: 500;
+}
+.section8 .text-content{
+    background-color: #0063dc;
+    padding: 61px 62px 110px 80px;
+    box-shadow: 10px 10px 30px rgba(68, 79, 173, 0.35);
+    border-radius: 5px;
+}
+.section8 .text-content .text-content-email{
+    color: #fff;
+    letter-spacing: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding: 10px;
+}
+.section8 .text-content .click-button{
+    padding: 14px 60px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #0063dc;
+    font-weight: 600;
+}
+.section8 .row-padding{
+    margin: 60px 0;
+}
+.section8 .row-padding h4{
+    color: #333;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.section8 .row-padding ul{
+padding: 0;
+margin: 35px 0;
+list-style-type: none;
+}
+.section8 .row-padding ul li{
+    margin-top: 25px;
+    text-decoration: none;
+}
+.section8 .row-padding ul li a{
+    color:#777;
+    letter-spacing: 1px;
+}
+.section8 .row-padding ul li a:hover{
+    text-decoration:none;
+}
+.section8 .navigation ul li span{
+    color: #0062cc;
+    font-size: 10px;
+    margin-right: 7px;
+}
+.section8 .row-padding ul li {
+    color:#777;
+    letter-spacing: 1px;
+}
+.section8 .row-padding .padding1{
+    padding-right: 55px;
+}
+footer {
+    border-top: 1px solid #ddd
+}
+footer .padding{
+    padding: 30px 0 11px;
+}
+footer .footer-heading p{
+    color:#777;
+    letter-spacing: 2px;
+    font-size: 14.5px;
+}
+footer .footer-heading p span a{
+    color:#777;
+    letter-spacing: 2px;
+    font-size: 14.5px;
+}
+footer .footer-heading p span a:hover{
+text-decoration: none;
+}
+footer .footer-heading ul{
+    float:right;
+}
+footer .footer-heading ul li{
+    padding: 0 15px;
+}
+footer .footer-heading ul li a{
+    color:#333;
+    letter-spacing: 2px;
+    font-size: 18px
+}
+footer .footer-heading ul li .home-button{
+    background-color: #f7f7f7;
+    padding: 7px;
+    color:#777;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: 35px;
+}
+footer .footer-heading ul li .fa{
+    padding: 0px 10px 0px 7px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+.banner{
+    background: url(./images/banner1.jpg) no-repeat center;
+    -webkit-background-size:cover;
+    min-height: 550px;
+}
+.override{
+    background: rgba(0, 0, 0, 0.44);
+    min-height: 550px;
+}
+
+.override .logo a {
+    padding: 0;
+}
+.override .menu li a {
+    padding: 10px;
+}
+.navbar-default .navbar-toggle:hover{
+    background-color: #fff;
+}
+.override .navbar-collapse{
+    text-align: center;
+    border: none;
+    margin-right: 13px;
+}
+.override .menu {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 0;
+    padding: 20px 0;
+   
+}
+.override .menu .active a{
+    color: #333;
+}
+.override .menu .active1 a{
+    color: #333;
+    opacity: 1;
+}
+.override .menu li a{
+    color: #333;
+}
+.override .dropdown-toggle{
+    opacity: 0.8;
+}
+.override .dropdown-menu{
+    text-align: center;
+    border-top: 0.5px solid rgb(168, 163, 163) !important;
+    border-bottom: 0.5px solid rgb(168, 163, 163) !important;
+}
+.override .dropdown-menu li a{
+    color: #333 !important;
+    padding: 10px !important;
+}
+
+
+/* 3rd para  active now*/
+.carousel-inner .carousel-caption{
+    top: 200px;
+}
+.carousel-inner .carousel-caption h1{
+    font-size: 80px;
+}
+
+
+
+.section1 .content p{
+    font-size: 19px;
+    padding: 40px 21px;
+}
+
+.section3 .padding{
+    padding: 0 15px;
+}
+.section3 .content-padding{
+    padding: 25px 50px 40px;
+}
+.section3 .content-padding h3{
+    font-size: 38px;
+}
+.section3 .content-padding p{
+    margin-top: 50px;
+}
+.section4 .padding{
+    padding: 0 15px;
+}
+.section4 .content-padding{
+    padding: 25px 50px 60px;
+}
+.section4 .content-padding h3{
+    font-size: 38px;
+}
+.section5 .content-padding h3 {
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-bottom: 90px;
+}
+.section5 .card1{
+    padding: 0;
+    text-align: center;
+}
+.section5 .card3{
+    padding: 0;
+    text-align: center;
+}
+.section5 .card4{
+    padding: 0;
+    text-align: center;
+}
+.section5 .card2{
+text-align: center;
+min-height: 218px;
+}
+.section5 .bobble-image{
+    width: 50%;
+}
+.section5 .card1 p {
+    line-height: 29px;
+}
+.section5 .card1 h4 {
+    margin-bottom: 18px;
+}
+.section5 .card3 h4 {
+    margin-bottom: 18px;
+}
+.section5 .card4 h4 {
+    margin-bottom: 18px;
+}
+.section8 .padding{
+    padding: 30px 16px
+}
+footer .padding{
+    padding: 0 0 60px;
+}
+footer .footer-heading{
+    text-align: center;
+    margin-top: 35px;
+}
+footer .footer-heading ul{
+    float: none;
+}
+
+
+
+
+
+}

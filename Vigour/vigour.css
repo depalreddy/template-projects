@@ -1,0 +1,829 @@
+body{
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.banner{
+    background: url(./images/b1.jpg) no-repeat bottom;
+    min-height: 840px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    position: relative;
+}
+.banner .padding{
+    padding: 0 30px;
+}
+.banner .logo h2{
+    margin-top: 18px;
+}
+.banner .logo h2 a{
+color: white;
+font-family: 'Playfair Display', serif;
+font-weight: 700;
+letter-spacing: 1px;
+font-size: 34px;
+}
+.banner .logo h2 a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .menuOpen {
+    width: 24px;
+    height: 20px;
+    display: block;
+    padding: 15px;
+    cursor: pointer;
+    float: right;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.open {
+    background-color: #ffffff;
+    width: 24px;
+    height: 4px;
+    display: block;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    top: -12px;
+    line-height: 51px;
+    margin-top: 3px;
+}
+.menuEffects {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+.menu {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background: rgba(13, 219, 209, 0.8);
+    z-index: 1;
+    box-shadow: 0 0 6px grey;
+}
+.menu label {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.menu label span {
+    font-size: 20px;
+    color: #fff;
+}
+
+.menu .menuContent {
+    text-align: center;
+    margin: 14em 0em;
+}
+#menuToggle:not(:checked) ~ .menuEffects ul {
+    transform: translateY(-30%);
+}
+.menuEffects ul {
+    transform: translateY(0%);
+    transition: all 0.5s;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+.menu ul li {
+    display: block;
+}
+.menu ul li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-family: Trebuchet MS;
+    text-transform: capitalize;
+    padding: 10px 0;
+    font-size: 20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+.nav{
+    text-align: right;
+    height: 70px;
+    line-height: 40px;
+    margin-top: 30px;
+    
+}
+.menu{
+    margin: 0 30px 0 0;
+    display: none;
+    background-color: #0ddbd1;
+}
+.menu a{
+    display:block;
+    text-align: center;
+}
+#toggle{
+    display: none;
+}
+label{
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 25px;
+}
+#toggle:checked + .menu{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+.card1{
+    text-align: left;
+    padding-top: 226px;
+}
+.card1 .social-icons ul li a{
+    color: #fff;
+}
+.card1 h5{
+    color: #ff3fcb;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.card1 h3{
+color: #fff;
+font-family: 'Playfair Display', serif;
+font-size: 42px;
+/* letter-spacing: 1px; */
+font-weight: 600;
+margin-top: 10px
+}
+.card1 p{
+    color: #c5c5c5;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    padding-right: 630px;
+    margin-top: 20px;
+    line-height: 26px;
+    margin-bottom: 45px;
+}
+.card1 .flex-container{
+    display: flex;
+    justify-content: right;
+}
+.card1 .click-button{
+    background-color: #0ddbd1;
+    border: none;
+    padding: 9px 14px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.card1 .click-button:hover{
+    opacity: 0.7;
+}
+.navigation {
+    text-align: right;
+    margin-top: 16px;
+    padding-right: 0px !important;
+}
+.navigation span{
+   
+}
+.navigation span a{
+    color: #fff;
+    font-size: 26px;
+}
+
+
+.section1 .padding{
+    padding: 70px 17px;
+}
+.section1 .girl-doing-yoga{
+    width: 100%;
+}
+.section1 h4{
+    font-size: 38px;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 5px;
+}
+.section1 p{
+    font-size: 15px;
+    color: #4c4c4c;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 20px 0 25px;
+}
+.section1 .click-button{
+    background-color: #fff;
+    padding: 4px 0px;
+    border: none;
+    border-bottom: 2px solid #ff3fcb;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.section2 .card2{
+background-color: #d8d8d8;
+min-height: 150px;
+padding: 40px 20px 12px;
+}
+.section2 .padding{
+    padding: 0;
+}
+/* .section2 .card2 .yoga-images{ 
+width: 100%;
+} */
+.section2 h4{
+    font-size: 23px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 2px;
+}
+.section2 p{
+    font-size: 15px;
+    color: #4c4c4c;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 20px 0 25px;
+}  
+.section2 .card3{
+    background-color: #d0d0d0;
+    min-height: 150px;
+    padding: 40px 20px 12px;
+    }
+.section3 .padding{
+    padding: 40px 10px;
+}
+.section3 h2{
+    font-size: 50px;
+    margin: 25px 0;
+    color: #424141;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: 'Playfair Display', serif;
+}
+.section3 .paragraph{
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #888;
+    padding: 0 270px;
+    line-height: 25px;
+}
+.section3 .six-cards{
+    min-height: 200px;
+    background-color: #efefef;
+    box-shadow: 1px 0px 7px #d2d2d2;
+    padding: 30px 33px 15px;
+    margin-top: 25px;
+}
+.section3 .padding1{
+    padding: 0;
+}
+.section3 .six-cards .fa{
+color: #ff3fcb;
+font-size: 30px;
+}
+.section3 .six-cards h3{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 22px;
+}
+.section3 .six-cards p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #4c4c4c;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    margin-top: 18px;
+}
+.banner1{
+    background: url(./images/b2.jpg) no-repeat bottom;
+    background-size: cover;
+    min-height: 550px;
+    width: 100%;
+    
+}
+.section4 .padding{
+    padding: 70px 10px 50px;
+}
+.section4 .image-background{
+    background-color: #fff;
+    padding: 17px 10px;
+    border-radius: 10px;
+}
+.section4 h4{
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    margin-top: 22px;
+}
+.section4 p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #c7c7c7;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    margin-top: 18px;
+}
+.section4 .padding2{
+margin-top: 160px;
+}
+.section5{
+    background-color: #e6e6e6;
+}
+.section5 .padding{
+    padding: 40px 10px 60px;
+}
+.section5 h2{
+    font-size: 50px;
+    margin: 25px 0;
+    color: #424141;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: 'Playfair Display', serif;
+}
+.section5 .paragraph{
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #888;
+    padding: 0 270px;
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+.section5 .padding1{
+    padding: 0;
+}
+.section5 .eight-pictures{
+    width: 100%;
+}
+.section6 .padding{
+    padding: 70px 0;
+}
+.section6 h2{
+    font-size: 46px;
+    margin: 5px 0 25px;
+    color: #424141;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: 'Playfair Display', serif;
+}
+.section6 .paragraph{
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #888;
+    padding: 0 450px;
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+.section6 .group-image{
+    width: 100%;
+}
+.section6 .para{
+    background-color: #dcdcdc;
+    padding: 80px 50px 181px;
+}
+.section6 .padding1{
+    padding:0;
+}
+.section6 .para a{
+color: black;
+font-family: 'Open Sans', sans-serif;
+}
+.section6 .para a:hover{
+    text-decoration: none;
+}
+.section6 .para h3{
+    margin: 15px 0;
+}
+.section6 .para h3 a{
+color: #ff3fcb;
+font-family: 'Playfair Display', serif;
+letter-spacing: 1px;
+font-size: 25px;
+}
+.section6 .para p{
+color: #4c4c4c;
+letter-spacing: 1px;
+font-size: 15px;
+line-height: 25px;
+margin: 50px 0 30px;
+}
+.section6 .click-button{
+    padding: 4px 0px;
+    border: none;
+    border-bottom: 2px solid #ff3fcb;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.section6 .para1{
+    background-color: #0ddbd1;
+    padding: 50px 29px 50px;
+}
+.section6 .para1 a{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+.section6 .para1 a:hover{
+    text-decoration: none;
+}
+.section6 .para1 h3{
+    margin: 15px 0;
+}
+.section6 .para1 h3 a{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+.section6 .para1 p{
+    color: #4c4c4c;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 50px 0 20px;
+}
+.section6 .para1 .click-button{
+    background-color: #0ddbd1;
+    margin-bottom: 25px;
+    
+}
+.section7 .padding{
+    padding: 30px 30px 70px;
+}
+.section7 h2{
+    font-size: 48px;
+    margin: 5px 0 25px;
+    color: #424141;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: 'Playfair Display', serif;
+}
+.section7 .paragraph{
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #888;
+    padding: 0 270px;
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+.section7 .group-image{
+    width: 100%;
+}
+.section7 .para{
+    padding:0;
+}
+.section7 .para .p1{ 
+    margin-bottom: 16px;
+}
+.section7 .para .padding1{ 
+    border-radius: 0;
+    box-shadow: 0px 0px 4px #888888;
+    background: #fbfbfb;
+    padding: 22px 7px;
+    letter-spacing: 2px;
+}
+.section7 .para .click-me{
+    background-color: #0ddbd1;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 25px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.section8 .padding{
+    padding: 30px 30px 70px;
+    background-color: #30323e;
+}
+.section8 h3{
+    color: #fff;
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 50px;
+    font-family: 'Playfair Display', serif;
+}
+.section8 address{
+    color: #c7c7c7;
+    letter-spacing: 1px;
+}
+.section8 address span{
+    color: #fff;
+}
+.section8 .p2{
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.section8 .social-icons ul li{
+    padding: 5px 15px;
+}
+.section8 .social-icons ul li a{
+    font-size: 21px;
+    color: #0ddbd1;
+}
+.section8 .go-to-home{
+    color: #fff;
+    font-size: 24px;
+}
+.section8 .go-to-home .fa-arrow-up{
+    margin-top: 30px;
+}
+.section8 .padding1{
+    padding: 25px;
+    background-color: #000;
+}
+.section8 .padding1 p{
+    letter-spacing: 2px;
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.section8 .padding1 span a{
+    color: #3a8f96;
+}
+.section8 .padding1 span a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+@media screen and (max-width:768px){
+.banner{
+    min-height: 500px;
+    width: 100%;
+}
+.banner .logo h2{
+    margin-top: 13px;
+}
+.banner .logo h2 a{
+    font-size: 32px;
+}
+.card1 {
+    padding-top: 135px;
+}
+.card1 .social-icons ul li{
+    padding: 4px;
+}
+.card1 .social-icons ul li a{
+    font-size: 13px;
+}
+.card1 h5{
+    font-size: 21px;
+    letter-spacing: 3px;
+    margin-top: 14px;
+}
+.card1 h3{
+    font-size: 26px;
+}
+.card1 p{
+    padding-right: 140px;
+    margin: 16px 0 20px;
+    font-size: 13px;
+}
+.card1 .click-button{
+    padding:9px 12px;
+}
+.section1 .padding{
+    padding: 40px 17px;
+}
+.section1 h4{
+    font-size: 28px;
+    margin-top: 20px;
+}
+.section1 p{
+    font-size: 15px;
+    color: #4c4c4c;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 20px 0 25px;
+}
+.section2 .card2 {
+    min-height: 150px;
+    padding: 40px 0px 12px;
+    text-align: center;
+}
+.section2 .card3 {
+    min-height: 150px;
+    padding: 40px 0px 12px;
+    text-align: center;
+}
+.section2 h4 {
+    font-size: 21px;
+    margin-top: 20px;
+}
+.section3 .padding{
+    padding: 40px 10px;
+}
+.section3 h2{
+    font-size: 36px;
+    margin: 0px 0 25px;
+}
+.section3 .paragraph{
+    font-size: 15px;
+    padding: 0px 81px;
+}
+.section3 .six-cards{
+    margin-top: 15px;
+    padding: 15px 25px 10px;
+}
+.section3 .six-cards .fa{
+font-size: 25px;
+}
+.section3 .six-cards h3{
+    font-size: 20px;
+}
+.section3 .six-cards p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #4c4c4c;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    margin-top: 18px;
+}
+.banner1{
+    background: url(./images/b2.jpg) no-repeat bottom;
+    background-size: cover;
+    min-height: 550px;
+    width: 100%;
+}
+.section4 .padding{
+    padding: 70px 10px 50px;
+}
+.section4 h4{
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    margin-top: 22px;
+}
+.section4 p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #c7c7c7;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    margin-top: 18px;
+}
+.section4 .padding1{
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.section4 .padding2{
+margin-top: 60px;
+padding: 0 10px;
+}
+.section4 .padding3{
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.section4 h4{
+    font-size: 21px;
+    margin-top: 22px;
+}
+.section4 p{
+    font-size: 15px;
+    margin-top: 18px;
+}
+.section5 h2{
+    font-size: 37px;
+    margin: 0 0 20px;
+}
+.section5 .paragraph{
+    padding: 0 80px; 
+}
+.section6 .padding{
+    padding: 30px 0;
+}
+.section6 h2{
+    font-size: 39px;
+    margin: 5px 0 25px;
+}
+.section6 .paragraph{
+    padding: 0 122px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 21px;
+}
+.section6 .para {
+    padding: 20px 35px 15px
+}
+.section6 .para h3 {
+    margin: 11px 0;
+}
+.section6 .para h3 a {
+    font-size: 22px;
+}
+.section6 .para p {
+    margin: 25px 0 30px;
+}
+.section6 .para1{
+    padding: 50px 29px 63px;
+}
+.section7 .padding {
+    padding: 25px 30px 70px;
+}
+.section7 h2 {
+    font-size: 37px;
+}
+.section7 .paragraph{
+    padding: 0 60px;
+    margin-bottom: 20px;
+}
+.section7 .iframe-map{
+    min-height: 300px;
+}
+.section8 .padding{
+    padding: 30px 30px 50px;
+    background-color: #30323e;
+}
+.section8 h3{
+    font-size: 26px;
+    margin: 27px;
+}
+.section8 .p2{
+    font-size: 15px;
+}
+.section8 .social-icons ul li{
+    padding: 5px 12px;
+}
+.section8 .social-icons ul li a{
+    font-size: 16px;
+}
+.section8 .go-to-home .fa-arrow-up{
+    margin-top: 15px;
+}
+.section8 .padding1{
+    padding: 25px;
+    background-color: #000;
+}
+.section8 .padding1 p{
+    letter-spacing: 2px;
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:430px){
+.banner{
+    min-height: 407px;
+}
+.banner .logo h2{
+    margin-top: 13px;
+}
+.banner .logo h2 a{
+    font-size: 30px;
+}
+}

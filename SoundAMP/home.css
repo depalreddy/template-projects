@@ -1,0 +1,358 @@
+.banner{
+    background: url(./images/main-image.jpg) no-repeat center;
+    background-size:cover;
+    min-height: 706px;
+}
+header .logo a{
+font-family: 'Pangolin',cursive;
+font-size: 35px;
+}
+header .guitar-logo-image{
+    width: 80px;
+    height: 80px;
+}
+header .menu ul li a{
+    color: #fff !important;
+}
+.dropdown-menu{
+    background-color: black;
+}
+.menu-background{
+    background-color: black;
+}
+header .menu ul li a{
+    background-color: black;
+}
+header .menu ul li a:hover{
+    background-color: black;
+    color: #78bbfb !important;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+header .menu ul li .btn-primary{
+    background-color: #78bbfb;
+    border-radius: 30px;
+    border: none;
+    padding: 20px;
+    padding: 12px 30px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+header .menu ul li .btn-primary:hover{
+    background-color: #2e96f9;
+}
+.social-icons .fa{
+  color: #78bbfb;
+  font-size: 20px;
+}
+.social-icons .fa:hover{
+    color: #066fd4;
+}
+.navbar-light .navbar-toggler{
+    background-color: white;
+}
+.text-on-image h1{
+    color: #fff;
+    font-family: 'Pangolin',cursive;
+    letter-spacing: -4px;
+}
+.text-on-image p{
+    color: #fff;
+    font-family: 'Pangolin',cursive;
+    font-size: 30px;
+}
+.click-button .btn-primary{
+    background-color: #8a59de;
+    padding: 22px 35px;
+    border-radius: 50px;
+    border: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.text-on-image .padding{
+    transform: translateY(40%);
+}
+.section-one{
+    margin-top: -48px;
+}
+.section-one h1, .common-heading {
+    color: #fff;
+    font-family: 'Pangolin',cursive;
+    background-color: #501e89;
+    letter-spacing: -4px;
+}
+.section-one .laptop-image{
+    width: 100%;
+    background-size: cover;
+}
+.section-one .padding{
+    background-color: #6936a2;
+    /* padding: 80px 100px; */
+}
+.section-one .laptop-text .active{
+    font-size: 14px;
+    font-weight: 100;
+}
+.section-one .laptop-text h3{
+    font-family: 'Pangolin',cursive;
+    font-size: 34px;
+    letter-spacing: -2px;
+    font-weight: 600;
+}
+.section-one .laptop-text h4{
+    font-size: 21px;
+    font-weight: 700;
+}
+.section-one .laptop-text p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section-two{
+    margin-top: -48px;
+}
+
+.section-two .laptop-image{
+    width: 100%;
+    background-size: cover;
+    padding-right: 50px;
+}
+.section-two .padding{
+    background-color: #6936a2;
+    /* padding: 10px 90px; */
+}
+.section-two .laptop-text h3{
+    font-family: 'Pangolin',cursive;
+    font-size: 28px;
+    font-weight: 500;
+}
+.section-two .laptop-text h5{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.section-two .laptop-text p{
+    font-size: 17px;
+}
+.section-two .laptop-image{
+    width: 100%;
+    background-size: cover;
+    padding-right: 50px;
+}
+.section-two iframe{
+    border: none;
+}
+.section-two .para-two p{
+line-height: 27px;
+}
+.section-two .laptop:hover{
+    opacity: 0.8;
+}
+
+.section-three .padding{
+    background-color: #6936a2;
+}
+.section-three .client-image{
+    background: url(./images/background47.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 450px;
+    margin: 0 120px;
+    border: 18px solid #501e89;
+}
+
+.section-four .padding{
+    background-color: #6936a2;
+}
+.section-four h3{
+    font-family: 'Pangolin',cursive;
+    font-size: 34px;
+    letter-spacing: -2px;
+}
+.section-four h2{
+    font-family: 'Pangolin',cursive;
+    background-color: #501e89;
+    letter-spacing: -2px;
+}
+.section-four .card{
+    border: none;
+    border-radius: inherit;
+}
+.section-four ul li{
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: 1px solid rgb(133, 128, 128);
+}
+.section-four .card-body .card-link{
+    background: #8a59de;
+    border-radius: 50px;
+    letter-spacing: 2px;
+}
+.section-four .card-body .card-link:hover{
+    background: #501e89;
+}
+
+.section-five .padding{
+    background-color: #6936a2;
+}
+.section-five p{
+    font-size: 14px;
+}
+footer .menu-bottons {
+    background-color: black;
+}
+footer .menu-bottons ul li a{
+    color: #fff;
+    font-size: 15px;
+}
+footer .menu-bottons ul li a:hover{
+    color: #78bbfb;
+}
+footer .menu-bottons p{
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+@media screen and (max-width:992px){
+.section-one .padding{
+    padding: 70px 130px !important;
+}
+.section-three .client-image{
+    margin: 0;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+.text-on-image h1{
+   font-size: 60px;
+}
+.click-button .btn-primary{
+    background-color: #8a59de;
+    padding: 22px 35px;
+    border-radius: 50px;
+    border: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.section-one .padding{
+  padding: 20px;
+}
+.section-two .laptop-image {
+    padding-right: 0;
+}
+.section-two .laptop-text h3{
+    text-align: center;
+}
+.section-two .laptop-text h5{
+    text-align: center;
+}
+.section-two .laptop-text p{
+    text-align: center;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+.banner{
+    min-height: 500px;
+}
+header .logo a{
+    font-size: 25px;
+}
+header .guitar-logo-image{
+    width: 70px;
+    height: 70px;
+}
+.text-on-image .padding{
+    transform: translateY(-5%);
+}
+.text-on-image h1{
+    font-size: 50px;
+}
+.text-on-image p{
+    font-size: 24px;
+}
+.section-one h1{
+    font-size: 40px;
+    letter-spacing: -2px;
+}
+.section-one .laptop-text h3{
+    font-size: 28px;
+}
+.section-one .laptop-text h4{
+    font-size: 20px;
+}
+.section-one .padding{
+    padding: 70px 20px !important;
+}
+.section-two h1{
+    font-size: 40px;
+    letter-spacing: -2px;
+}
+.section-two .padding {
+    background-color: #6936a2;
+    padding: 20px 15px;
+}
+.section-two .laptop-image {
+    padding-right: 0;
+}
+.section-two .laptop-text h3{
+    font-size: 25px;
+}
+.section-three h1{
+    font-size: 45px;
+    letter-spacing: -2px;
+}
+.section-four h1{
+    font-size: 45px;
+    letter-spacing: -2px;
+}
+.section-five h1{
+    font-size: 45px;
+    letter-spacing: -2px;
+}
+}

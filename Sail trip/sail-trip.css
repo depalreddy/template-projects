@@ -1,0 +1,924 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.banner{
+    background: url(./sail-sea-image.jpg) no-repeat right;
+    min-height: 765px;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+.nav-header {
+    position: absolute;
+    width: 100%;
+    background:rgba(255, 255, 255, 0.6);
+    border: none;
+    border-radius: 0;
+    padding:15px 0;
+}
+.navbar-header{
+    width: 100%;
+}
+nav.heading{
+    background:rgba(255, 255, 255, 0.6);
+    border: none;
+    border-radius: 0;
+    padding:15px 0;
+}
+.logo h1{
+    margin: 0;
+}
+.logo h1 .navbar-brand{
+color: black;
+font-family: 'Playfair Display', serif;
+font-weight: 600;
+font-size: 34px;
+}
+.logo h1 .navbar-brand:hover{
+    color: black;
+}
+.navbar-collapse .menu-heading{
+    float: right;
+    margin-top: 22px
+}
+.navbar-collapse .menu-heading li {
+    margin: 0 25px;
+}
+.navbar-collapse .menu-heading li a{
+    padding: 0 15px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: black !important;
+}
+.heading button {
+    padding: 0;
+    border: none;
+}
+.heading button span{
+    background: #0ddbd1;
+    padding: 12px 18px;
+    border-radius: 20px;
+    color: #fff;
+}
+.social-icon{
+    font-size: 30px;
+    padding-top: 266px;
+}
+.social-icon ul{
+    padding-left: 30px;
+}
+.social-icon ul li{
+    text-decoration: none;
+    list-style-type: none;  
+    margin-bottom: 10px;
+}
+.social-icon ul li a{
+text-decoration: none;
+list-style-type: none;
+font-size: 20px;
+color: #e0e0e0;
+}
+.social-icon ul li a:hover{
+    color: rgb(202, 202, 202);
+}
+.card{
+    color: #fff;
+    height: 200px;
+    float: right;
+    margin-top: -320px;
+    text-align: center;
+    margin-right: 94px;
+}
+.card .padding{
+    float: right;
+    margin-right: -20px;
+}
+.heading-on-image h4{
+letter-spacing: 3px;
+font-family: 'Playfair Display', serif;
+font-size: 39px;
+color: #ffeaea;
+text-align: right;
+line-height: 40px;
+}
+.paragraph{
+    margin-top: 33px;
+}
+.heading-on-image p{
+    color: #dadada;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: right;
+    line-height: 20px;
+}
+.color-change{
+    background: #0ddbd1;
+    border: none;
+    padding: 10px 18px;
+    float: right;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.first-para{
+    padding: 80px 0;
+}
+/* .first-para .sub-para span i{
+    padding: 20px;
+    color: #000;
+    font-size: 30px;
+    width: 50%;
+    text-decoration: none;
+    list-style-type: none;
+}
+.social-icon ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    color: #e0e0e0;
+    }
+ */
+ .first-para .sub-para{
+    width: 100%;
+    height: 175px;
+ }
+ .first-para .sub-para span{
+    color: #fff;
+    background: #0ddbd1;
+    padding-top: 34px;
+    padding-bottom: 18px;
+ }
+ .first-para .sub-para span .far{
+    font-size: 30px;
+    padding: 18px 15px;
+    margin-top: 10px;
+ }
+ .first-para .sub-para span .fab{
+    padding: 9px 18px;
+font-size: 36px;
+    margin-top: 10px;
+ }
+ .first-para .sub-para span .fas{
+    font-size: 30px;
+    padding: 18px 15px;
+    margin-top: 10px;
+ }
+ .first-para .left-para{
+     padding-right: 0;
+     padding-left: 13px;
+     
+ }
+ .first-para .sub1 {
+  padding: 0;
+ }
+ .first-para .sub2 {
+    padding-right: 0;
+    text-align: right;
+   }
+ .first-para .left-para1{
+ padding-left: 0;
+ }
+ .first-para .sub-para h5{
+font-size: 22px;
+color: #0ddbd1;
+font-family: 'Playfair Display', serif;
+letter-spacing: 2px;
+ }
+ .first-para .sub-para p{
+    font-size: 16px;
+    color: #4c4c4c;
+    letter-spacing: 1px;
+    margin-top: 22px;
+    font-weight: 200;
+    line-height: 26px;
+ }
+ .first-para .sea-ab-image{
+width: 100%;
+}
+.first-para .sub-para1 h3{
+font-size: 70px;
+text-align: right;
+font-family: 'Playfair Display', serif;
+font-weight: 600;
+letter-spacing: 3px;
+}
+.first-para .sub-para1 p{
+    font-size: 16px;
+    color: #4c4c4c;
+    letter-spacing: 1px;
+    margin-top: 22px;
+    font-weight: 200;
+    line-height: 26px;
+    text-align: right;
+ }
+.section2 .content{
+     padding: 0;
+ }
+ .section2 .color{
+    background-color: #0ddbd1;
+    padding: 66px 120px 50px;
+    text-align: center;
+    }
+.section2 .color h4{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.section2 .color h5{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.section2 .color p{
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #4c4c4c;
+    line-height: 25px;
+    margin-top: 15px;
+}
+.section2 .color1{
+    background-color: #04eadf;
+    padding: 66px 120px 50px;
+    text-align: center;
+    }
+.section2 .color1 h4{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.section2 .color1 h5{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.section2 .color1 p{
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #4c4c4c;
+    line-height: 25px;
+    margin-top: 15px;
+}  
+.section2 .color2{
+    background-color: #01fbef;
+    padding: 66px 120px 50px;
+    text-align: center;
+    }
+.section2 .color2 h4{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.section2 .color2 h5{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.section2 .color2 p{
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #4c4c4c;
+    line-height: 25px;
+    margin-top: 15px;
+}  
+.section3 .content1{
+    padding: 80px 10px 50px;
+}
+.section3 .heading1{
+    padding-top: 100px;
+}
+.section3 .heading1 h3{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: #424141;
+    letter-spacing: 3px;
+}
+.section3 .card1{
+    background: #efefef;
+    box-shadow: 1px 0px 7px #d2d2d2;
+    padding:8px 15px;
+    margin-bottom: 26px;
+}
+.section3 .card1 .far{
+font-size: 40px;
+font-weight: 100;
+padding: 15px;
+}
+.section3 .card1 h5{
+    font-size: 30px;
+    color: #0ddbd1;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+.section3 .card1 p{
+    font-size: 15px;
+    color: #4c4c4c;
+    letter-spacing: 1px;
+    padding: 6px;
+    line-height: 25px;
+}
+.section3 .card1 .fab{
+    font-size: 40px;
+    font-weight: 100;
+    padding: 15px;
+}
+.section3 .card1 .fa{
+        font-size: 40px;
+        font-weight: 100;
+        padding: 15px;
+}
+.section3 .card1 .fa{
+    font-size: 40px;
+    font-weight: 100;
+    padding: 15px;
+}
+.ship-image-content{
+    position: relative;
+}
+.section4 .ship-iamge{
+    width: 100%;
+}
+.section4 .alignment{
+    position: absolute;
+    top:10px;
+    padding: 195px 117px
+}
+.section4 .alignment ul li a{
+color: #212529;
+letter-spacing: 1px;
+font-family: 'Open Sans', sans-serif;
+}
+.section4 .alignment ul li a:hover{
+    text-decoration: none;
+}
+.section4 .text-align-left{
+    float:left;
+    color: #fff;
+}
+.section4 .text-align-left:hover{
+   opacity: 0.8;
+}
+.section4 .alignment h3{
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+}
+.section4 .alignment p{
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+.section4 .para2{
+    padding-left: 0;
+}
+.section4 h3{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: #424141;
+    letter-spacing: 3px;
+    margin-top: 100px;
+}
+.section4 .new-para{
+    padding: 100px 30px;
+}
+.section4 .new-para h3{
+    color:#0ddbd1;
+    font-weight: 100;
+}
+.section4 .new-para p{
+    color: #212529;
+}
+.section4 .ships-in-sea{
+    width: 100%;
+    padding-top: 20px;
+}
+.section4 .ship-in-sea{
+    padding: 0;
+    width: 100%;
+}
+.section5 .content2{
+    padding: 0;
+}
+.section5 .banner1{
+    background: url(./cc1.jpg) no-repeat bottom;
+    width: 100%;
+    min-height: 340px;
+background-size: cover;
+position: relative;
+}
+.section5 h4{
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Playfair Display', serif; 
+    padding-top: 60px;
+    font-weight: 600;
+}
+.section5 p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+.section5 span{
+    text-align: center;
+}
+.section5 .flex-container{
+    display: flex;
+    justify-content: center;
+}
+.section5 .book-more{
+    color: #fff;
+}
+.section5 .book-more:hover{
+    opacity: 0.8;
+}
+.section6 .padding{
+    padding: 70px 10px 100px;
+}
+.section6 .image1 h4{
+    color: #0ddbd1;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    font-size: 24px;
+    margin-top: 2px;
+}
+.section6 .padding-left{
+    padding-left: 0;
+}
+.section6 .image1 p{
+    color: #4c4c4c;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.section6 .image1{
+    width: 100%;
+    min-height: 175px;
+}
+.section6 .text h3{
+     font-size: 72px;
+     font-weight: 700;
+     font-family: 'Playfair Display', serif;
+     color: #424141;
+     letter-spacing: 3px;
+     padding-top: 90px;
+}
+.section6 .padding4{
+    padding: 0;
+}
+.section6 .padding5{
+    padding-left: 0;
+}
+footer .black-color .padding{
+    padding: 35px 0px 68px;
+}
+footer .black-color{
+    background: black;
+    min-height: 200px;
+}
+footer .black-color h4{
+    color: #0ddbd1;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+footer .black-color p{
+    color: #cac9c9;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    line-height: 25px;
+}
+footer .black-color .padding3{
+    padding-top: 43px;
+}
+footer .black-color .padding1{
+    padding: 10px;
+    text-align: right;
+}
+footer .black-color .padding3 li{
+    padding: 0 7px;
+}
+footer .move-top{
+    color: black;
+    background-color: #fff;
+    padding: 18px 9px 8px;
+}
+footer .move-top:hover{
+      color: black;
+}
+footer .move-top .fa-arrow-up{
+font-size: 27px;
+}
+footer .move-top .fa-arrow-up:hover{
+    color: #000;
+    }
+.footer-gray-color{
+    background-color: #333232;
+}
+.footer-gray-color p{
+color: #fff;
+padding: 30px;
+margin: 0;
+letter-spacing: 2px;
+font-size: 14px;
+}
+.footer-gray-color p span a{
+color: #3a8f96;
+}
+.footer-gray-color p a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+.banner{
+    background: url(./sail-sea-image.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+}
+nav.heading{
+    padding:7px 0;
+}
+.logo h1 .navbar-brand{
+    font-size: 28px;
+    padding-left: 0;
+}
+.first-para{
+    padding: 10px 30px !important;
+}
+.first-para .sub-para span{
+    padding-top: 27px;
+    padding-bottom: 12px;
+ }
+.first-para .sub-para span .far{
+    padding: 18px 57px;
+}
+.first-para .sub-para span .fab{
+    padding: 18px 57px;
+}
+.first-para .sub-para span .fas{
+    padding: 18px 57px;
+}
+.first-para .sub-para h5{
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.first-para .sub-para p{
+    margin-top: 5px;
+    font-weight: 100;
+}
+.first-para .sub-para{
+    width: 100%;
+    height: 110px;
+}
+.heading .padding{
+    float: right;
+}
+.navbar-collapse .menu-heading{
+    margin-top: 20px;
+    margin-right: -35px;
+}
+.navbar-collapse .menu-heading li {
+    margin: 0 5px;
+}
+.social-icon{
+    padding-top: 100px;
+}
+.social-icon ul{
+    padding-left: 20px;
+}
+.social-icon ul li{ 
+    margin-bottom: 2px;
+    margin-top: -4px;
+}
+.social-icon ul li a {
+    font-size: 16px;
+}
+.card .padding{
+    float: right;
+    margin-right: -56px;
+}
+.heading-on-image{
+    margin-top: 116px;
+    margin-left: 67px;
+}
+.heading-on-image h4{
+   font-size: 29px;
+   line-height: 30px;
+}
+.paragraph{
+    margin-top: 22px;
+}
+.heading-on-image p {
+    font-size: 15px;
+    line-height: 25px;
+}
+.section4 .alignment {
+    padding: 110px 40px 42px;
+}
+.section4 .alignment h3 {
+    font-size: 27px;
+    font-weight: 100;
+    text-align: left;
+}
+.section4 .alignment ul li a {
+    color: #4c4c4c;
+}
+.section4 h3 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-top: 52px;
+    text-align: center;
+}
+.section4 .small-heading{
+    margin-bottom: 50px;
+}
+.logo h1 .navbar-brand{
+    margin-left: -15px;
+    padding-left: 20px;
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.section4 .padding{
+    padding: 220px 0 0;
+}
+.section4 .new-para{
+    padding: 10px 22px
+}
+.section5 .content2 {
+    padding-top: 20px;
+}
+.section6 .padding{
+    padding: 40px 10px 0;
+}
+.section6 .padding1{
+    padding:0 30px 0 110px;
+}
+.section6 .image1 h4 {
+    font-size: 22px;
+}
+.section6 .image1 p {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.section6 .text h3 {
+    font-size: 50px;
+    padding-top: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.section6 .padding5 {
+    padding: 20px 100px 20px 20px;
+}
+.section6 .image1 .boy-image1{
+    float: right;
+}
+
+
+
+
+
+}
+
+
+@media (max-width:768px){
+.section2 .color {
+    padding: 30px 26px 20px;
+}
+.section2 .color1{
+    padding: 30px 26px 20px;
+}
+.section2 .color2{
+    padding: 30px 26px 20px;
+}
+.section2 .color h4{
+    font-size: 28px;
+}
+.section2 .color1 h4{
+    font-size: 28px;
+}
+.section2 .color2 h4{
+    font-size: 28px;
+}
+.section2 .color h5{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.section2 .color1 h5{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.section2 .color2 h5{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.section3 .content1{
+    padding: 60px 10px 15px;
+}
+.section3 .heading1{
+    padding-top: 20px;
+}
+.section3 .heading1 h3{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+@media screen and (max-width: 500px){
+    .banner{
+        background: url(./sail-sea-image.jpg) no-repeat center;
+        -webkit-background-size: cover;
+        background-size: cover;
+        min-height: 500px;
+    }
+.heading{
+    padding: 10px;
+}
+nav.heading {
+    padding: 9px 0;
+    margin: -17px 0;
+}
+.heading .navbar-header{
+    margin-left: 0 !important;
+}
+.heading .navbar-header button{
+    padding: 30px 0px 9px;
+    margin: 0;
+}
+.logo h1 .navbar-brand{
+    font-size: 26px;
+    padding-top: 34px;
+    letter-spacing: 1px;
+    margin-left: -15px;
+}
+.heading button span{
+    padding: 8px 20px;
+    letter-spacing: 1.5px;
+    color:#fff;
+}
+.heading button span:hover{
+    color: black;
+}
+/* .social-icon{
+    font-size: 30px;
+    padding-top: 266px;
+} */
+.social-icon ul{
+    text-align: center;
+    margin-top: -210px;
+    margin-left: -21px;
+}
+.social-icon ul li{
+    display: inline;
+    padding: 5px;
+}
+.social-icon ul li a{
+font-size: 17px;
+}
+.card{
+    width: 100%;
+}
+.heading-on-image{
+    width: 122%;
+    padding: 10px;
+    padding-left: 107px;
+    margin-top: 147px;
+}
+.heading-on-image h4{
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 23px;
+}
+.paragraph{
+    margin-top: 20px;
+}
+.heading-on-image p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 24px;
+    padding: 0 20px;
+}
+.color-change{
+    padding: 10px 14px;
+    letter-spacing: 2px;
+    margin-top: 7px;
+    margin-right: 150px;
+    font-size: 13px;
+}
+.first-para .padding{
+    padding: 0;
+}
+.first-para .sub-para span .far{
+    font-size: 25px;
+    padding: 18px 181px;
+ }
+.first-para .sub-para span .fab{
+    padding: 10px 187px;
+    font-size: 26px;
+ }
+ .first-para .sub-para span .fas{
+    font-size: 26px;
+    padding: 18px 185px;
+    margin-top: 40px;
+ }
+ .first-para .left-para {
+    padding: 0;
+  }
+ .first-para .sub-para h5 {
+    font-size: 21px;
+ }
+ .first-para .sub-para p {
+   font-size: 15px;
+}
+.first-para .sub-para span {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.first-para .sub-para1 h3{
+    font-size: 37px;
+    letter-spacing: 1px;
+    margin-top: 33px;
+}
+.first-para .sub-para1 p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 17px;
+}
+.section3 .heading1 h3{
+    font-size: 40px;
+    
+}       
+.section3 .heading1{
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+    }
+
+    @media screen and (max-width: 321px){
+        .color-change{
+            margin-right: 68px;
+        }
+        .first-para .sub-para span .far{
+            padding: 18px 129px !important;
+         }
+        .first-para .sub-para span .fab{
+            padding: 10px 134px;
+         }
+         .first-para .sub-para span .fas{
+            padding: 18px 132px;
+         }
+         .section3 .content1{
+            padding: 40px 10px;
+        }
+         .section3 .heading1 h3{
+            font-size: 30px;
+        }   
+    }
